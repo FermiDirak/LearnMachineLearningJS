@@ -1,0 +1,31 @@
+{
+  "name": "learn-machine-learning-js",
+  "version": "0.1.0",
+  "description": "Learn machine learning in JS",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FermiDirak/LearnMachineLearningJS.git"
+  },
+  "keywords": [
+    "learn",
+    "machine",
+    "learning",
+    "javascript",
+    "node"
+  ],
+  "author": "Bryan Manuele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FermiDirak/LearnMachineLearningJS/issues"
+  },
+  "homepage": "https://github.com/FermiDirak/LearnMachineLearningJS#readme",
+  "dependencies": {
+    "brain.js": "^1.0.3",
+    "mnist": "^1.1.0"
+  }
+}

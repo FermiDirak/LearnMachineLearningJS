@@ -1,0 +1,15 @@
+.mnist-holder {
+	display: flex;
+	flex-direction: vertical;
+	align-items: center;
+	justify-content: center;
+}
+
+.mnist-canvas {
+	width: 400px;
+	height: 400px;
+};
+
+.mnist-data {
+	width: 100%;
+}
