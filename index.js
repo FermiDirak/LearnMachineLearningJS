@@ -1,23 +1,15 @@
-var net = new brain.NeuralNetwork();
-net.fromJSON(JSON.parse(neuralnet));
-
-console.log(net);
-
 /* -------------------- LOGIC -------------------- */
-
-
-
 
 /**
  * Loads mnist model
  * @return mnist model
  */
 function LoadMnistModel() {
-	// var net = new brain.NeuralNetwork();
+	var net = new brain.NeuralNetwork();
 
-	// net.fromJSON(modelJSON);
+	net.fromJSON(JSON.parse(neuralnet));
 
-	// return net;
+	window.net = net;
 }
 
 /**
@@ -95,7 +87,6 @@ function getNewMnistNumber() {
 
 	$('.mnist-one-hot-vector').text('[ ' + oneHotVector.join(' , ') + ' ]');
 }
-
 
 /* -------------------- INITIALIZATION -------------------- */
 
