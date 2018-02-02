@@ -38,7 +38,7 @@ function getLargestValueInIndex(arr) {
 function getRandomMnistDigit() {
 	var number = Math.floor(Math.random() * 10);
 
-	return mnist[number].get()
+	return mnist[number].get();
 }
 
 /**
@@ -48,8 +48,6 @@ function getRandomMnistDigit() {
 function renderMnistDigit(mnistDigit) {
 	var mnistGrid = $('.mnist-grid');
 	mnistGrid.empty();
-
-	console.log('hi');
 
 	for (var i = 0; i < 28; i++) {
 		var row = $('<div>', {
