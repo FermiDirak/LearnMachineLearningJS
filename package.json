@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/FermiDirak/LearnMachineLearningJS#readme",
   "dependencies": {
+    "brain": "^0.7.0",
     "brain.js": "^1.0.3",
     "jquery": "^3.3.1",
-    "mnist": "^1.1.0"
+    "mnist": "^1.1.0",
+    "requirejs": "^2.3.5"
   }
 }
