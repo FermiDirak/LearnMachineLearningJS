@@ -59,6 +59,14 @@ button {
 	height: 4px;
 }
 
+.mnist-guess-holder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
 .mnist-guess {
 	color: #073642;
 	font-size: 20pt;
