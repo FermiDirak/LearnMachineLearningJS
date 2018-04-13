@@ -1,6 +1,8 @@
 # LearnYouMLjs
 
-Learn the fundamental basics of machine learning in Javascript
+Learn the fundamental basics of machine learning in Javascript by setting your very own mnist project using brain.js!
+
+![preview](images/screenshot.png)
 
 ## Getting Started
 
